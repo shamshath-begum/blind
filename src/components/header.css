@@ -1,0 +1,33 @@
+.header{
+    height: 120px;
+    width: 100%;
+    background-color:#20c997;
+    display: flex;
+    /* justify-content: space-around; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 60px;
+}
+.title{
+    margin-left: 400px;
+    /* margin-top: 40px; */
+    font-size: 80px;
+}
+.logo {
+    width: 120px; /* Adjust based on your needs */
+    height: auto;
+    animation: rotate 5s infinite linear;
+  }
+  
+  @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
