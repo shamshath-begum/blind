@@ -5,8 +5,8 @@ import Hero from './components/Hero';
 import Scrolling from './components/Scrolling';
 import View from './components/View';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-export const url ="http://localhost:8000"
+export const url="https://blind-be.onrender.com"
+// export const url ="http://localhost:8000"
 
 function App() {
   return (
