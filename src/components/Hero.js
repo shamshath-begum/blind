@@ -234,7 +234,7 @@ setUniversity("")
         </div>
     </div>
     <div className='hero41_right'>
-        photo
+    
     </div>
 
 </div>
