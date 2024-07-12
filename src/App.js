@@ -2,8 +2,8 @@ import "./App.css";
 import Hero from "./components/Hero";
 import Scrolling from "./components/Scrolling";
 import logo from "./assets/logo.png";
-// export const url="https://blind-be.onrender.com"
-export const url = "http://localhost:8000";
+export const url="https://blind-be.onrender.com"
+// export const url = "http://localhost:8000";
 
 function App() {
   return (
