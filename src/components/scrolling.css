@@ -3,7 +3,7 @@
     overflow: hidden;
     white-space: nowrap;
     margin-top: 3px;
-    background-color: #b0e6eb  ;
+    background-color: #98bdf5  ;
   }
   
   .scrolling-text {
@@ -13,9 +13,9 @@
     /* padding-left: 100%; */
     animation: scroll 30s linear infinite;
     color:transparent;
-    
+    padding-top: 5px;
     font-size: 35px;
-
+    font-family: 'TT Chocolates Trial Bold', sans-serif;
   }
 
   .text1{

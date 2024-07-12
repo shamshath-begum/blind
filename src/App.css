@@ -3,6 +3,21 @@ body {
   
 }
 
+@font-face {
+  font-family: 'TT Chocolates Trial Bold';
+  src: url('./assets/TT Chocolates Trial Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* body {
+  font-family: 'TT Chocolates Trial Bold', sans-serif;
+} */
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -10,12 +25,16 @@ body {
 .App-header {
   background-color: #f2f4f5;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  gap: 20px;
+  /* justify-content: space-between; */
   padding: 10px 20px;
   color: black;
   box-shadow: 0 4px 2px -2px gray;
-   height: 150px;
+   height: 190px;
+   font-family: 'TT Chocolates Trial Bold', sans-serif;
+   
  
 }
 @keyframes pulse {
@@ -37,9 +56,9 @@ padding-top: 10px;
 
 }
 .enterprise{
-  font-size: 14px;
-  margin-bottom: 25px;
-margin-right: 50px;
+  font-size: 35px;
+  /* margin-bottom: 30px; */
+margin-right: 28px;
 
 }
 
@@ -120,7 +139,7 @@ margin-right: 50px;
 button[type="submit"] {
   width: 100%;
   padding: 10px;
-  background-color: black;
+  background-color: #174894;
   color: white;
   border: none;
   border-radius: 4px;
@@ -129,7 +148,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-  background-color: #9ea19e;
+  background-color: #a7c0e6;
   color: black;
 }
 .hero-border{
@@ -141,18 +160,18 @@ button[type="submit"]:hover {
   background-color: #f8f9fa;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  border: 80px solid #8ce9f1 ;
+  border: 80px solid #174894 ;
   
 }
 .hero_button{
   margin-top: 20px;
   margin-left: 520px;
   border-radius: 10px;
-  background-color: black;
+  background-color: #174894;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .hero_button:hover{
-background-color: #e3eee9;
+background-color: #cdd8e9;
 color:black
 }
 /* General styles */
