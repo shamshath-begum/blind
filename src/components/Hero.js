@@ -235,7 +235,7 @@ function Hero() {
     <>
       <div className="hero-border">
         <div style={{ fontFamily: 'TT Chocolates Trial Bold',marginBottom: "20px", fontSize: 25 }}>
-          Application Form
+        CANDIDATE INFORMATION SHEET 
         </div>
         <form className="form-container" onSubmit={handleSubmit}>
           <div className="form-group">
