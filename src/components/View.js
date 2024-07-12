@@ -29,7 +29,7 @@ console.log(applicant)
 <div className="card-container">
       {applicant.map((item) => (
         <div className="card" key={item._id}>
-          <img src={item.photo} alt={`${item.name}'s photo`} className="card-photo" />
+          <img src={`http://localhost:8000/uploads/${item.image}`} alt={`${item.name}'s photo`} className="card-photo" />
           <div className="card-content">
             <h2>{item.name}</h2>
             <p><strong>Email:</strong> {item.email}</p>

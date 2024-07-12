@@ -36,7 +36,7 @@ function Hero() {
     expectedSalary: "",
   });
   console.log(formData);
-  const [image, setImage] = useState(null);
+  const [image, setImage] = useState("");
   console.log("image", image);
   const [preview, setPreview] = useState("");
   console.log(preview);
