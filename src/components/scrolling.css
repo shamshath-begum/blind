@@ -2,7 +2,8 @@
     width: 100%;
     overflow: hidden;
     white-space: nowrap;
-    margin-top: 10px;
+    margin-top: 3px;
+    background-color: #b0e6eb  ;
   }
   
   .scrolling-text {
@@ -12,8 +13,9 @@
     /* padding-left: 100%; */
     animation: scroll 30s linear infinite;
     color:transparent;
-    font-style: italic;
-    font-size: 30px;
+    
+    font-size: 35px;
+
   }
 
   .text1{
